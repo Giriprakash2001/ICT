@@ -1,0 +1,320 @@
+body {
+    font-family: "Poppins";
+    max-width: 1400px;
+ 
+  }
+  
+  h1 {
+    color: #1c1c1c;
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+.navbar-default {
+    background-color: white;
+    border-color: white;
+}
+
+@media(min-width:768px) {
+    .search {
+        display: none;
+    }
+}
+
+
+
+.align {
+    font-size: 26px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+
+.name {
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+}
+
+.subscribe {
+    background-color: #24AFB5;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 130px;
+}
+@media(min-width:768px){
+    .secondRowContent{
+        margin-left: 115px;
+    }
+    .field{
+        margin-left: 100px;
+    }
+
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+@media(max-width:576px){
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      .icon{
+        font-size: 0px; 
+        background-color: white; 
+        border-radius: 5px;
+    }
+
+}
+.icon{
+    font-size: 20px; 
+    background-color: white; 
+    border-radius: 5px;
+}
+
+
+.nav-link{
+    margin-top: 20px;
+}
+@media(min-width:576px){
+    .second{
+        margin-top: 84px;
+    }
+}
+@media(min-width:1200px){
+    .borderSecond{
+        margin-bottom: 120px;
+    }
+
+    .secondTwoBorder{
+        margin-bottom: 87px;
+
+    }
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+#features {
+    text-align: center;
+   
+    background-color: #ffffff;
+   
+    z-index: 1;
+  }
+  @media(max-width:576px){
+      .features-image{
+          width: 50%;
+      }
+      .suchSoftware{
+        font-size: 20px;
+        margin-top: 29px;
+      }
+      .oneLinestar{
+        width: 22%;
+      }
+      #per3 p{
+        margin-top: 53px;
+
+      }
+      #pppp {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(2, 2fr);
+     
+        padding-top: 80px;
+        margin-bottom: 5px;
+        width: 30%;
+    }
+    .crousel{
+        font-size: 18px;
+        margin-top: 26px;
+    }
+    .footerLogo{
+        width: 20%;
+        margin-top: 40px;
+        margin-left: 95px;
+    }
+     #navb{
+        margin-top: 25px;
+        line-height: 31px;
+     }
+     .navc{
+         margin: 0px;
+         margin-left: 0px;
+     }
+  
+  }
+  @media(min-width:1024px){
+      .navc{
+          margin-left: 150px;
+      }
+    .thirdPadding{
+        padding: 84px;
+
+    }
+    #details{
+        padding: 30px;
+    }
+    #per1 {
+        margin-left: 100px;
+    }
+    #per3 {
+        width: 30%;
+        margin-left: 20px;
+        padding: 40px;
+        margin-top: 45px;
+        margin-bottom: 5px;
+      }
+      .crousel{
+        font-size: 26px;
+        margin-top: 26px;
+    }
+    .heading{
+        margin-left: 121px;
+      }
+      .inThe{
+        font-size: 22px;
+        margin-left: 117px;
+      }
+
+  }
+.fourFont{
+    font-size: 20px;
+}
+.eachAnd{
+    font-size: 21px;
+}
+.oneLine{
+    font-size: 24px;
+  
+}
+
+#per2 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+    margin-left: 20px;
+   
+    padding-top: 80px;
+    margin-bottom: 5px;
+    width: 30%;
+}
+#per21 {
+    margin: 10px;
+    padding-right: 10px;
+}
+#per22 {
+    margin: 10px;
+    padding-right: 10px;
+}
+#per23 {
+    margin: 10px;
+    padding-right: 10px;
+}
+#per24 {
+    margin: 10px;
+    padding-right: 10px;
+}
+#per2 img {
+    margin-top: 16px;
+    margin-left: 18px;
+    height: 25px;
+    width: 25px;
+}
+#per21 {
+    margin: 10px;
+    padding-right: 10px;
+}
+#per2x {
+    margin-right: 20px;
+    float: right;
+}
+#per1 {
+
+    padding: 10px;
+    margin-top: 51px;
+    margin-bottom: 5px;
+    width: 25%;
+}
+
+  #per3 p {
+    font-size: 15px;
+  
+  }
+  #per3 footer {
+    font-size: 12px;
+    color: #949090;
+  }
+  #short {
+    text-align: center;
+    padding: 3% 0%;
+    background-color: #ffffff;
+ 
+    z-index: 1;
+  }
+
+
+  .google a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    color: #7f7d7d;
+    text-decoration: none;
+  }
+  
+  .google {
+    margin: 20px;
+  }
+  .learnmore a {
+    font-size: 16px;
+    color: #4f7f99;
+    text-decoration: none;
+  }
+  .learnmore {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  #quotesSection {
+    padding: 0%;
+    text-align: center;
+  }
+  
+
+   .card-body{
+       text-align: center;
+       box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5)
+   }
+   
+   @media (max-width: 800px){
+       .mx-30{
+           margin-bottom: 30px;
+       }
+   }
+   
+  
+   
